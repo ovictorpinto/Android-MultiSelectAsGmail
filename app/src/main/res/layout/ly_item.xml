@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<br.com.mobilesaude.multiselectasgmail.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent" android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:background="@drawable/state_selector"
+              android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_avatar"/>
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        tools:text="Conteudo"/>
+</br.com.mobilesaude.multiselectasgmail.CheckableLinearLayout>
